@@ -1,0 +1,23 @@
+统一环境：
+    JDK：1.7
+    开发工具：IDEA
+    构建工具：Maven
+    版本控制：Git
+    编码：UTF-8
+    托管网址：https://github.com/firefonix/firefonix
+    包命名：
+            主项目：com.firefonix开头
+            配置文件：com.firefonix.config
+            servlet-api改进：com.firefonix.servlet
+            配置解析(json,xml)：com.firefonix.loader
+            工具类:com.firefonix.utils
+            拦截器:com.firefonix.interceptor
+            路由:com.firefonix.router
+            控制器：com.firefonix.ctrl
+
+            测试用web项目以com.firefonix.pd20开头
+    编码风格：驼峰式
+目标：
+    实现一个改进型的servlet-api的框架
+    实现框架的高并发特性（使用NIO机制）
+    实现框架的高易用性(提供xml，json，注解三种配置方式)
