@@ -14,7 +14,7 @@
             工具类:com.firefonix.utils
             拦截器:com.firefonix.interceptor
             路由:com.firefonix.router
-            控制器：com.firefonix.ctx
+            控制器：com.firefonix.ctrl
 
             测试用web项目以com.firefonix.pd20开头
     编码风格：驼峰式

@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by IceFonix on 2014/8/1.
  * 初始化整个环境
- * 准备好 ctx,router,interceptors
+ * 准备好 ctrl,router,interceptors
  * 以及组合，通过chain方式组合
  * routerManager->interceptorStack->CtxManager
  */
