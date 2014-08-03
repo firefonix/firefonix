@@ -45,9 +45,7 @@ public class GoServlet extends WebServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String routerURL = req.getRequestURI();
-        if (fireContext.findRouter(routerURL) != null) {
 
-        }
     }
 
     /**
