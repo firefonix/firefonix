@@ -8,12 +8,13 @@
     包命名：
             主项目：com.firefonix开头
             配置文件：com.firefonix.config
+            核心文件：com.firefonix.core
             servlet-api改进：com.firefonix.servlet
             配置解析(json,xml)：com.firefonix.loader
             工具类:com.firefonix.utils
             拦截器:com.firefonix.interceptor
             路由:com.firefonix.router
-            控制器：com.firefonix.ctrl
+            控制器：com.firefonix.ctx
 
             测试用web项目以com.firefonix.pd20开头
     编码风格：驼峰式
