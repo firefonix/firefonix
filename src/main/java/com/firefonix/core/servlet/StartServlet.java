@@ -5,14 +5,17 @@ import java.util.Map;
 
 /**
  * Created by IceFonix on 2014/8/1.
+ * 初始化整个环境
+ * 准备好 ctx,router,interceptors
+ * 以及组合，通过chain方式组合
+ * routerManager->interceptorStack->CtxManager
  */
 public class StartServlet extends HttpServlet {
     /**
      * 初始化整个环境
-     *@param fires String[] 初始化文件位置
-     *@param extras Bundle 附加选项
+     * @param fires String[] 初始化文件位置
+     * @param extras Bundle 附加选项
      * */
-    protected void initLoader(String []fires,Map extras){}
-    public Thread st;
+    protected void initLoader(String []fires,Map<String,String> extras){}
 
 }
