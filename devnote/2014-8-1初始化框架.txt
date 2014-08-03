@@ -1,4 +1,4 @@
-统一环境：
+1.统一环境：
     JDK：1.7
     开发工具：IDEA
     构建工具：Maven
@@ -18,7 +18,12 @@
 
             测试用web项目以com.firefonix.pd20开头
     编码风格：驼峰式
-目标：
+2.目标：
     实现一个改进型的servlet-api的框架
     实现框架的高并发特性（使用NIO机制）
     实现框架的高易用性(提供xml，json，注解三种配置方式)
+3.万物皆Bundle
+    对应每一个Bundle
+    都有一个先祖查询的功能
+    Bundle1/Bundle2/..{/key}
+    最后查询可以落到Bundle上，也可以落到key上
